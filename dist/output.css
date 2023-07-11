@@ -618,16 +618,6 @@ video {
   margin-right: 3rem;
 }
 
-.mx-16 {
-  margin-left: 4rem;
-  margin-right: 4rem;
-}
-
-.mx-24 {
-  margin-left: 6rem;
-  margin-right: 6rem;
-}
-
 .mx-5 {
   margin-left: 1.25rem;
   margin-right: 1.25rem;
@@ -703,10 +693,6 @@ video {
 
 .h-12 {
   height: 3rem;
-}
-
-.h-24 {
-  height: 6rem;
 }
 
 .h-5 {
@@ -874,22 +860,17 @@ video {
   padding: 1.25rem;
 }
 
-.p-8 {
-  padding: 2rem;
-}
-
 .p-6 {
   padding: 1.5rem;
+}
+
+.p-8 {
+  padding: 2rem;
 }
 
 .px-1 {
   padding-left: 0.25rem;
   padding-right: 0.25rem;
-}
-
-.py-2 {
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
 }
 
 .py-5 {
@@ -919,10 +900,6 @@ video {
 
 .text-center {
   text-align: center;
-}
-
-.align-bottom {
-  vertical-align: bottom;
 }
 
 .text-2xl {
@@ -1075,14 +1052,14 @@ video {
 }
 
 @media (min-width: 640px) {
+  .sm\:mx-16 {
+    margin-left: 4rem;
+    margin-right: 4rem;
+  }
+
   .sm\:mx-24 {
     margin-left: 6rem;
     margin-right: 6rem;
-  }
-
-  .sm\:mx-28 {
-    margin-left: 7rem;
-    margin-right: 7rem;
   }
 
   .sm\:my-20 {
@@ -1090,21 +1067,8 @@ video {
     margin-bottom: 5rem;
   }
 
-  .sm\:mx-16 {
-    margin-left: 4rem;
-    margin-right: 4rem;
-  }
-
-  .sm\:flex {
-    display: flex;
-  }
-
   .sm\:w-2\/4 {
     width: 50%;
-  }
-
-  .sm\:w-screen {
-    width: 100vw;
   }
 
   .sm\:grid-cols-2 {
@@ -1117,10 +1081,6 @@ video {
 
   .sm\:flex-row {
     flex-direction: row;
-  }
-
-  .sm\:justify-between {
-    justify-content: space-between;
   }
 
   .sm\:text-4xl {
